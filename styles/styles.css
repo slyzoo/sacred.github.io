@@ -1,7 +1,17 @@
 :root{
+  --darkmode: #252525;
+  --lightmode: #e4e4e4;
+}
+
+body{
+  background: #252525;
+}
+
+.servers{
   
 }
 
-.guilds{
-  align-items: left;
+.servers button{
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
 }
