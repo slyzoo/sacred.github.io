@@ -1,0 +1,23 @@
+:root{
+/*Dark Theme*/
+  --dark-background: #272727;
+  --dark-text: #dddddd;
+
+}
+
+body{
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+}
+
+.servers-tab{
+
+}
+
+.direct-messages-tab{
+
+}
+
+.friends-tab{
+  
+}
