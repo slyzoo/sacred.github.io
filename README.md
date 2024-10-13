@@ -1,3 +1,2 @@
 # Sacred
-a discord knock off
-only front end no backend
+redoing sacred, differently this time ;3
