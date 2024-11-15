@@ -9,17 +9,52 @@ body{
 }
 
 /* apperence and structure of important tabs */
-.guilds-tab{}
+.guilds-tab{
+  max-width: 75px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 15px;
+}
+
+.guilds-tab ul{
+  list-style-type: none;
+  margin: none;
+  padding: 14px;
+}
+
+.guilds-tab li{
+  padding-top: 5px;
+}
+
+.guilds-tab img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.guilds-tab img:hover{
+  transition: .3s;
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5);
+}
+
 .direct-messages-tab{}
+
 .friends-list{}
+
 .account-tab{}
+
 
 /* settings tabs */
 .settings-tab{}
 
 .account-tab{}
+
 .profile-tab{}
+
 .appearance-tab{}
+
 .accessibility-tab{}
+
 .language-tab{}
+
 .safety-tab{}

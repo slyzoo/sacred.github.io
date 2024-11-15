@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{Account Name}</title>
+  <title>{Account Name} | Sacred</title>
   <link rel="stylesheet" href="/styles/theme-1.css">
 </head>
 <body>
 <!-- normal stuffs (left to right) -->
-  <div class="guilds-tab"></div>
-  <div class="direct-messages-tab"></div>
-  <div class="friends-list"></div>
-  <div class="account-tab"></div>
+  <div class="guilds-tab">  <!-- z-index 0 -->
+   <ul>
+    <li><a href="#"><img src="/assets/user-images/01.jpg"></a></li>
+    <li><a href="#"><img src="/assets/user-images/02.jpg"></a></li>
+   </ul>
+  </div>
+  <div class="account-tab"></div> <!-- z-index 0 -->
+  <div class="direct-messages-tab"></div> <!-- zindex -1 -->
+  <div class="friends-list"></div> <!-- zindex -1 -->
   
 <!-- Settings -->
   <div class="settings">
