@@ -9,6 +9,31 @@ body{
 }
 
 /* appearance and structure of important tabs */
+.home-tab{
+  max-width: 75px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 15px;
+  margin: 0;
+}
+
+.home-tab ul{
+  list-style-type: none;
+  margin: none;
+  padding: 12px;
+}
+
+.home-tab img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.home-tab img:hover{
+  transition: .3s;
+  box-shadow: -1 -1 5px 5px rgba(255, 255, 255, 0.5);
+}
+
 .guilds-tab{
   max-width: 75px;
   background-color: rgb(59, 59, 59);
@@ -18,7 +43,7 @@ body{
 .guilds-tab ul{
   list-style-type: none;
   margin: none;
-  padding: 14px;
+  padding: 12px;
 }
 
 .guilds-tab li{
