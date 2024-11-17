@@ -1,3 +1,9 @@
 {
-  "backgroundColor": "#1f1f1f"
+  "bgColor" : "#1f1f1f",
+  "typeface" : "Arial",
+  "hover-aura" : "#ffffff80",
+  "home-tab-bg-colour" : "#3b3b3b80", 
+  "guild-tab-bg-colour" : "#3b3b3b80", 
+  "tooltip-bg-colour" : "#000000",
+  "tooltip-txt-colour" : "#fff"
 }

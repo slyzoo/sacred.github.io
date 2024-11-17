@@ -11,7 +11,6 @@ body{
 /* appearance and structure of important tabs */
 .home-tab{
   max-width: 75px;
-  background-color: rgb(59, 59, 59);
   border-radius: 15px;
   margin: 0;
 }
@@ -59,7 +58,7 @@ body{
 
 .guilds-tab img:hover{
   transition: .3s;
-  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 5px 5px #ffffff80;
 }
 
 .tooltip {
@@ -69,15 +68,15 @@ body{
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 10px 10px;
   position: absolute;
   z-index: 1;
-  top: -5px;
+  top: 25%;
   left: 110%;
 }
 
@@ -91,6 +90,7 @@ body{
   border-style: solid;
   border-color: transparent black transparent transparent;
 }
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
